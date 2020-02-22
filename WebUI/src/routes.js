@@ -21,7 +21,7 @@ export default [
     component: () => <Redirect to="/blog-overview" />
   },
   {
-    path: "/blog-overview",
+    path: "/overview",
     layout: DefaultLayout,
     component: BlogOverview
   },
