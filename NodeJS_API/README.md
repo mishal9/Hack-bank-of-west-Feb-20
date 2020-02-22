@@ -1,1 +1,1 @@
-Change <password>
+Change password
