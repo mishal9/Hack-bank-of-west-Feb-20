@@ -13,6 +13,7 @@ import java.util.regex.Pattern;
 public class HtmlHelper {
     public static String cleanUpHref(String href) {
         href = href.split("#")[0];
+
         return href.replace(" ", "%20");
     }
 
